@@ -1,5 +1,34 @@
 {% extends 'base.html' %}
+{% block body %}
 
+
+<div class="container">
+<div class="card mt-3">
+<div class="card-header text-center py-3">
+  <p class="text-dark"> <strong><h3>URL Shortner Application- Built with Django, HTML, JS and Ajax</h3></strong></p>
+</div>
+</div>
+</div>
+<br>
+
+
+
+<div>
+
+ 
+  <dl>
+    <dt>This is a basic URL shortener website.</dt>
+    <dd>- A larger link is made smaller</dd>
+    
+  </dl>  
+
+  
+
+<hr class="mt-5">
+
+</div>
+<div class="px-3 py-4">
+<div class=" text-center px-3 py-4">
 <main>
   <h1>URL Shortener</h1>
   <form id="post-form">
@@ -13,6 +42,24 @@
   <section id="section"><h2></h2></section>
     
 </main>
+
+</div>
+<hr class="mt-5">
+
+<strong><p class="font-weight-bold">Yes, you can!</p></strong>
+
+    
+    <ul class="text-danger">
+    <li>Copy that large link from anywhere on the internet</li>
+    <li> Paste it on the 'Enter URL here' section</li>
+    <li>Click on 'Shorten'</li>
+    <li>You will get your shortened Url</li>
+    <li>Copy the link and paste it to your local browser</li>
+    <li>It will redirect back to the initial 'large' link </li>
+    <li>Don't forget to copy and share with your friends</li>
+  </ul>
+
+</div>
 
 
 <script type="text/javascript">
@@ -32,4 +79,4 @@
     });
   });
 </script>
-
+{% endblock body %}
